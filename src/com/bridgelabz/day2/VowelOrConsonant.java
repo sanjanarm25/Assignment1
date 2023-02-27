@@ -8,19 +8,7 @@ public class VowelOrConsonant {
         System.out.println("Enter a character");
         char ch=sc.next().charAt(0);
         switch (ch){
-            case 'a':
-                System.out.println(ch + " is a vowel");
-                break;
-            case 'e':
-                System.out.println(ch + " is a vowel");
-                break;
-            case 'i':
-                System.out.println(ch + " is a vowel");
-                break;
-            case 'o':
-                System.out.println(ch +" is a vowel");
-                break;
-            case 'u':
+            case 'a', 'e','i','o','u':
                 System.out.println(ch + " is a vowel");
                 break;
             default:

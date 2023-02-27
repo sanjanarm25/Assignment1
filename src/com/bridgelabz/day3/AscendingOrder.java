@@ -1,6 +1,6 @@
-package com.bridgelabz.basics;
+package com.bridgelabz.day2;
 
-public class SecondLargestNumber {
+public class AscendingOrder {
     public static void main(String[] args) {
         int [] arr1=new int[5];
         arr1[0]=2;
@@ -9,16 +9,17 @@ public class SecondLargestNumber {
         arr1[3]=8;
         arr1[4]=6;
         int temp=0;
-        for(int i = 0; i<arr1.length; i++ ){
-            for(int j = i+1; j<arr1.length; j++){
-
-                if(arr1[i]>arr1[j]){
+        for (int i = 0; i < arr1.length; i++) {
+            for (int j = i+1; j < arr1.length; j++) {
+                if(arr1[i] > arr1[j]) {
                     temp = arr1[i];
                     arr1[i] = arr1[j];
                     arr1[j] = temp;
-                }
-            }
+                };
+            }System.out.print(arr1[i] + " ");
         }
-        System.out.println(" second largest number is: "+arr1[arr1.length-2]);
+
+
+
     }
 }
