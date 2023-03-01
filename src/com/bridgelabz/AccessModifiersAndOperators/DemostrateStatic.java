@@ -1,4 +1,4 @@
-package com.bridgelabz.day2;
+package com.bridgelabz.AccessModifiersAndOperators;
 
 public class DemostrateStatic {
     static int a=10;

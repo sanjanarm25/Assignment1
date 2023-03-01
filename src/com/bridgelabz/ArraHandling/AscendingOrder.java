@@ -1,4 +1,4 @@
-package com.bridgelabz.day3;
+package com.bridgelabz.ArraHandling;
 
 public class AscendingOrder {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.bridgelabz.day3;
+package com.bridgelabz.ArraHandling;
 
 import java.util.Scanner;
 

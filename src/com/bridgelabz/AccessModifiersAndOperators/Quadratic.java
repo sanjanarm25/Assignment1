@@ -1,4 +1,4 @@
-package com.bridgelabz.day2;
+package com.bridgelabz.AccessModifiersAndOperators;
 
 import java.util.Scanner;
 

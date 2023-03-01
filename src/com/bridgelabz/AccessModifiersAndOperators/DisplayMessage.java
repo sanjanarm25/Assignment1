@@ -1,6 +1,6 @@
 //1.1 Write a program to display any message:
 
-package com.bridgelabz.day2;
+package com.bridgelabz.AccessModifiersAndOperators;
 
 public class DisplayMessage {
 
